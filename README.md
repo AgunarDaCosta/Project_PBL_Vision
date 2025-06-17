@@ -4,7 +4,7 @@ Sistem Keamanan Laboratorium Berbasis Deteksi Wajah dan Gerakan Mencurigakan Rea
 
 ---
 
-## 📌 Deskripsi Proyek
+## Deskripsi Proyek
 
 Proyek ini bertujuan untuk meningkatkan keamanan di laboratorium kampus melalui sistem pengawasan cerdas berbasis AI. Sistem ini tidak hanya merekam video, tetapi juga mampu:
 
@@ -16,7 +16,7 @@ Dibangun menggunakan Raspberry Pi dan kamera webcam/CCTV, sistem ini mendeteksi 
 
 ---
 
-## 🧠 Metode yang Digunakan
+## Metode yang Digunakan
 
 ### 1. **YOLOv5 – Object Detection**
 Digunakan untuk mendeteksi keberadaan manusia secara cepat dalam setiap frame kamera. Model ini sangat efisien dan dapat berjalan dengan baik pada perangkat ringan seperti Raspberry Pi.
@@ -32,7 +32,7 @@ Digunakan untuk melacak pose tubuh dan mendeteksi gestur yang tidak biasa, seper
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 - Python 3.10+
 - OpenCV
@@ -45,7 +45,7 @@ Digunakan untuk melacak pose tubuh dan mendeteksi gestur yang tidak biasa, seper
 
 ---
 
-## 📊 Hasil Pengujian
+## Hasil Pengujian
 
 ### Face Recognition
 - **2 meter (terang)**: Akurasi tinggi, wajah dikenali dengan cepat.
@@ -64,7 +64,7 @@ Digunakan untuk melacak pose tubuh dan mendeteksi gestur yang tidak biasa, seper
 
 ---
 
-## ✅ Kesimpulan
+## Kesimpulan
 
 - Sistem bekerja optimal pada **jarak 2 meter** dengan **pencahayaan terang** untuk Face Recognition.
 - **MediaPipe Pose** menunjukkan akurasi tinggi bahkan pada **jarak 5 meter** dan **pencahayaan minim**, menjadikannya lebih fleksibel untuk deteksi gerakan mencurigakan.
@@ -73,7 +73,7 @@ Digunakan untuk melacak pose tubuh dan mendeteksi gestur yang tidak biasa, seper
 
 ---
 
-## 🧾 Cara Menjalankan Proyek
+## Cara Menjalankan Proyek
 
 ### 1. Kloning Repository
 ```bash
