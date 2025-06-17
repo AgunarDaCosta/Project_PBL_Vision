@@ -83,13 +83,11 @@ cd Keamanan-Lab-Kampus
 pip install -r requirements.txt
 3. Siapkan Dataset Wajah
 Buat folder dataset/ dan tambahkan foto wajah:
-dataset/
-├── Carlos/
-│   ├── 1.jpg
-│   ├── 2.jpg
-├── Rina/
-│   ├── 1.jpg
-│   ├── 2.jpg
+known_faces/
+├── Carlos
+├── Fina
+├── Saenab
+├── Dul
 4. Encode Wajah
 python encode_faces.py
 5. Jalankan Sistem
